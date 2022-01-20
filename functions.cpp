@@ -1,10 +1,6 @@
 
 #include "functions.h"
 
-void usage(const char *name) {
-    // todo
-}
-
 std::map<std::string, unsigned> calc_words(std::istream &in) {
     std::string line;
     std::map<std::string, unsigned> words;
